@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+
+<!-- CHANGELOG
+		1/26/2017 - Doc
+			Changed title tag
+			Added scholarship-carousel-table
+			Modified Facebook page feed to be width of 500
+    01/26/17 - Tim Roush
+      See Carousel "Recently Added" slide notes
+-->
+
+<head>
+  <title>GoFlight Home Page</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+  <link type="text/css" rel="stylesheet" href="css/grcaviation_style.css" />
+  <link type="text/css" rel="stylesheet" href="css/main_style.css" />
+	<link type="text/css" rel="stylesheet" href="css/footer.css" />		<!-- FOOTER INSERTED BY: Tim Roush 01/25/17 -->
+</head>
+<body>
+  <div class="container secondary">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid dominant">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavBar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">GRC Aviation</a>
+        </div>
+        <div class="collapse navbar-collapse" id="MyNavBar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Opportunities</a></li>
+            <li><a href="scholarships.html">Scholarships</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><button class="btn btn-success navbar-btn">Join Program</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div id="containment" class="row hidden-sm hidden-xs">
+					<div id="carousel" class="carousel slide " data-ride="carousel" >
+
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+						  <li data-target="#carousel" data-slide-to="0" class="active"></li>
+						  <li data-target="#carousel" data-slide-to="1"></li>
+						  <li data-target="#carousel" data-slide-to="2"></li>
+						  <li data-target="#carousel" data-slide-to="3"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox" style="height: 40vh; text-align: center;">
+
+							<div class="item active" syle="height: 500px; max-height: 500px; min-height: 50vh;">
+
+									<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGRCAviation%2F&tabs=timeline&width=500&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="400" style="text-align: center; border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+									</iframe>
+
+							</div>
+
+							<div class="item">
+
+								<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGRCAviation%2Fposts%2F1752981948363243%3A0&width=400&show_text=true&height=374&appId" width="750" height="374" style="width:60%; border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+							</div>
+
+							<div class="item">
+
+						
+								<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGRCAviation%2Fposts%2F1752499198411518&width=400&show_text=true&height=262&appId" width="750" height="262" style="width:60%; border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+								
+							
+							</div>
+							
+<!-- CAROUSEL SLIDE: RECENTLY ADDED START
+      Formatted by Tim Roush 01/26/17
+        --Centered Header text (temp inline stylesheet - fix later)
+        --Formatted code for readability
+        --Had to remove headline tags around '+'s to achieve row height requirements
+            * Consider removing apply now from slide / just provide link to DB page-->
+              
+							<div class="item">
+								<div id="scholarship-carousel-table" class="table-responsive" style="width: 70%; margin: auto;">
+										<table class="table">
+											<h2>Top 3 Latest Job Postings</h2>
+											<thead> 
+												<tr>
+													<th style="text-align: center;">Organization</th>
+                          <th style="text-align: center;">Amount</th>
+                          <th style="text-align: center;">Due Date</th>
+                          <th style="text-align: center;">Apply Now!</th>
+												</tr>
+                      </thead>
+                      <tbody>
+												<tr>
+													<td>Richard J. Santori Memorial Scholarships</td>
+                          <td>$2,000</td>
+                          <td>March 15th, 2017</td>
+                          <td><a href="http://www.acone.org/scholarships">+</a></td>
+												</tr>
+												<tr>
+													<td>AOPA Flight Training Scholarship</td>
+                          <td>$2,500 - $12,500</td>
+                          <td>June 6th, 2017</td>
+                          <td><a href="https://www.aopa.org/training-and-safety/flight-schools/flight-training-initiative/flight-training-scholarships">+</a></td>
+												</tr>
+												<tr>
+													<td>Ninety-Nines Fly NOW Scholarship</td>
+                          <td>$5,000</td>
+                          <td>March 15th, 2017</td>
+                          <td><a href="http://www.ninety-nines.org/fly-now.htm">+</a></td>
+												</tr>												
+											</tbody>
+										</table>
+								</div>
+							</div>
+              
+<!-- CAROUSEL SLIDE: RECENTLY ADDED END -->
+
+							<!-- not currently working
+							<div class="item">
+								<div class="fb-page" data-href="https://www.facebook.com/GRCAviation/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+									<blockquote cite="https://www.facebook.com/GRCAviation/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GRCAviation/">Green River College Aviation</a>
+
+									</blockquote>
+								</div>
+							</div>
+							-->
+
+
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+						  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						  <span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+						  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						  <span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+	</div>
+	
+	
+	<!--Pre fetch the images to load -->
+	<link rel="prefetch" href="plane2.png">
+	<link rel="prefetch" href="plane3.png">
+	<link rel="prefetch" href="drone1.png">
+	
+    <div class="row splash">
+      <div class="col-md-4 splash1">
+		<p>Opportunities</p>
+        <a href="jobs.html"></a>
+      </div>
+      <div class="col-md-4 splash2">
+        <p>Scholarships</p>
+		<a href="scholarships.html"></a>
+      </div>
+      <div class="col-md-4 splash3 text-center">
+        <p style="margin: auto;">Resources</p>
+		<a href="resources.html"></a>
+      </div>
+    </div>
+	
+<!-- BEGIN FOOTER CODE -->
+<!-- FOOTER INSERTED BY: Tim Roush 01/26/17 -->
+		
+		<div class="row footer">
+			<div class="col-xs-12 col-sm-4 col-md-4 footer1">
+				Related Links:
+				<hr />
+				<a href="http:///www.greenriver.edu" target="tab">Green River College</a><br />
+				<a href="http://www.greenriver.edu/academics/areas-of-study/details/aviation-technology.htm" target="tab">Green River Aviation Department</a><br />
+				<a href="http://grcc.greenriver.edu/course-descriptions/course-description-detail.aspx?desc=AVIA&deptname=Aviation" target="tab">Aviation Course Descriptions</a><br />
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 footer2">
+				<p>Auburn Center Campus<br />
+				<a href="https://www.google.com/maps/place/1221+D+St+NE,+Auburn,+WA+98002" target="tab">1221 D St NE<br>Auburn, WA 98002</a></p>
+				<p>Main Campus<br />
+				<a href="https://www.google.com/maps/place/12401+SE+320th+Street+Auburn,+WA+98092-3622" target="tab">12401 SE 320th Street<br>Auburn, WA 98092-3622</a></p>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 footer3">
+				<div class="social">
+					<a href="https://www.facebook.com/GRCAviation" target="tab"><img class="sm_icons facebook" src="images/facebook.jpg" alt="Visit Us On Facebook!" /></a>
+					<a href="http://www.linkedin.com" target="tab"><img class="sm_icons linkedin" src="images/linkedin.jpg" alt="Visit Us On LinkedIn" /></a>
+				</div>
+				<p><a href="http://www.greenriver.edu/academics/areas-of-study/bas-programs.htm" target="tab">This site is a product of Green River College IT Software Development students.</a></p>
+				<p><a href="admin.html">Admin Login</a></p>
+			</div>
+		</div>
+		
+<!-- END FOOTER CODE -->
+		
+  </div>
+ 	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+ </body>
+ </html>
