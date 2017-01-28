@@ -1,1 +1,1 @@
-Createing the CSS folder.
+Creating the CSS folder.
