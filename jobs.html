@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        
+        <title>Jobs and Internships</title>
+        <link rel="icon" type="image/gif" href="pictures/icon.gif">
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href="css/theme.css" rel="stylesheet">
+        <link href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css" rel="stylesheet">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+
+    <body>
+        <div class="container">
+            <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix-top">
+                <div class="container">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand page-scroll" href="http://goflight.greenrivertech.net">Go Flight</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden active">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="jobs.html">Jobs/Internships</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="scholarships.html">Scholarships</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="resources.html">Student Resources</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="table table-responsive">
+                <table id="job-table" class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Title</th>
+                            <th class="hidden-xs hidden-sm text-center">Organization</th>
+                            <th class="hidden-xs hidden-sm text-center">Location</th>
+                            <th class="text-center">Date Posted</th>
+                            <th class="hidden-xs hidden-sm text-center">Apply Now!</th>
+                        </tr>
+                   <!--     <tr class="hidden-md hidden-lg">
+                            <th colspan="2" class="text-center">Click row to expand</th>
+                        </tr> -->
+                     </thead>
+
+                     <tbody>
+                        <tr href="#r1" data-toggle="collapse">
+                                <td>Training Officer</td>
+                                <td class="hidden-xs hidden-sm">Menzies Aviation</td>
+                                <td class="hidden-xs hidden-sm">Seattle</td>
+                                <td>1/22/2017</td>
+                                <td class="hidden-xs hidden-sm"><a href="https://rn11.ultipro.com/MEN1002/JobBoard/JobDetails.aspx?__ID=*8D1A2DC0ED0779CF&1796E0A4-85D4-4C61-AD66-3F1277614B7D">Apply!</a></td>
+                            </tr> 
+                         
+                <!--        <tr id="r1" class="collapse hidden-md hidden-lg">
+                                <td colspan="5">
+                                    <table class="table table-bordered table-inverse">
+                                        <tr>
+                                            <th>Organization</th>
+                                            <th>Location</th>
+                                            <th>Apply Now!</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Menzies Aviation</td>
+                                            <td>Seattle</td>
+                                            <td><a href="https://rn11.ultipro.com/MEN1002/JobBoard/JobDetails.aspx?__ID=*8D1A2DC0ED0779CF&1796E0A4-85D4-4C61-AD66-3F1277614B7D">Apply!</a></td>
+                                        </tr>
+                                    </table>        
+                                </td>
+                            </tr> -->
+                         
+                        <tr data-toggle="modal" data-target="#myModal">
+                            <td>Visitor Services Assistant</td>
+                            <td class="hidden-xs hidden-sm">The Museum of Flight</td>
+                            <td class="hidden-xs hidden-sm">Seattle</td>
+                            <td>1/22/2017</td>
+                            <td class="hidden-xs hidden-sm"><a href="https://www4.recruitingcenter.net/Clients/museumofflight/PublicJobs/controller.cfm?jbaction=JobProfile&Job_Id=10020&esid=az">Apply!</a></td>
+                        </tr> 
+                        <tr>
+                            <td>Shift Controller</td>
+                            <td class="hidden-xs hidden-sm">Menzies Aviation</td>
+                            <td class="hidden-xs hidden-sm">Seattle</td>
+                            <td>1/22/2017</td>
+                            <td class="hidden-xs hidden-sm"><a href="https://rn11.ultipro.com/MEN1002/JobBoard/JobDetails.aspx?__ID=*486028236F19EDCB&1796E0A4-85D4-4C61-AD66-3F1277614B7D">Apply!</a></td>
+                        </tr>
+                        <tr>
+                            <td>Flight Attendant</td>
+                            <td class="hidden-xs hidden-sm">Southwest Airlines</td>
+                            <td class="hidden-xs hidden-sm">Seattle</td>
+                            <td>1/22/2017</td>
+                            <td class="hidden-xs hidden-sm"><a href="https://airportoperations-southwest.icims.com/jobs/17400/ramp-agent-supervisor/job?hub=5&mobile=false&width=958&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420">Expired</a></td>
+                        </tr>
+                        <tr>
+                            <td>Flight Attendant</td>
+                            <td class="hidden-xs hidden-sm">Alaska Airlines</td>
+                            <td class="hidden-xs hidden-sm">Seattle</td>
+                            <td>1/22/2017</td>
+                            <td class="hidden-xs hidden-sm"><a href="http://alaskaair.jobs/seattle-wa/inflight-safety-policy-specialist/17AFDDFC44E34152BD24083EC796D541/job/?HRS_SUBSOURCE_ID=1062">Expired</a></td>
+                        </tr>
+                        <tr>
+                            <td>Program Manager</td>
+                            <td class="hidden-xs hidden-sm">Travelopia</td>
+                            <td class="hidden-xs hidden-sm">Seattle</td>
+                            <td>1/22/2017</td>
+                            <td class="hidden-xs hidden-sm"><a href="https://www.smartrecruiters.com/Travelopia/105268154-program-manager">Expired</a></td>
+                        </tr>
+                        <tr>
+                            <td>Peak Material Handler</td>
+                            <td class="hidden-xs hidden-sm">Matheson Inc.</td>
+                            <td class="hidden-xs hidden-sm">SeaTac</td>
+                            <td>1/22/2017</td>
+                            <td class="hidden-xs hidden-sm"><a href="https://www.appone.com/maininforeq.asp?Ad=286552&R_ID=1485950&Refer=https://www.indeed.com/&B_ID=44">Apply!</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Visitor Services Assistant</h4>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="hidden-lg hidden-md">
+                                <li>Organization: The Museum of Flight</li>
+                                <li>Location: Seattle</li>
+                                <li>Apply Now: <a href="https://www4.recruitingcenter.net/Clients/museumofflight/PublicJobs/controller.cfm?jbaction=JobProfile&Job_Id=10020&esid=az">Apply!</a></li>
+                            </ul>
+                            <p>Random information about the job</p>
+                            <img style="right-align" width=159 height=96 src="pictures/airplane.jpg">
+                        </div>
+                        <div class="modal-footer">
+                            <a type="button" class="btn btn-default" href="https://www4.recruitingcenter.net/Clients/museumofflight/PublicJobs/controller.cfm?jbaction=JobProfile&Job_Id=10020&esid=az">Apply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="text-muted">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p>Contact us at (253) 833-9111</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <p>Created by GR students!</p>
+                        </div>                           
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+        
+    <script>
+        $("#job-table").DataTable();
+    </script>
+        
+  </body>
+</html>
