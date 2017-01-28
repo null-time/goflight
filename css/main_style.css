@@ -1,0 +1,110 @@
+/*
+ *  CHANGELOG
+ *  01/26/2017 - Doc
+ *    .carousel
+ *      + textalign
+ *
+ *    Added scholarship-carousel-table
+ */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  border-width: 0px;
+}
+
+.navbar {
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.carousel {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  text-align: center;
+}
+
+.splash {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  background-image: url("../images/cloudline.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: left top;
+  background-size: cover;
+  width: 100%;
+  min-height: 80vh;
+  bottom: 0px;
+  /*background-color: red;*/
+}
+
+.splash1, .splash2, .splash3 {
+  min-height: 80vh;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes splash3 {
+  from {background-position: 500px;}
+  to {background-position: 0px;}
+}
+
+.splash3:hover {
+  background-image: url("../images/plane2.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center left 500px;
+  animation-name: splash3;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes splash1 {
+  from {background-position: -748px center;}
+  to {background-position: -200px center;}
+}
+
+.splash1:hover {
+  background-image: url("../images/plane3.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: -748px center;
+  animation-name: splash1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes splash2 {
+  from {background-position: center 130%;}
+  to {background-position: center 50%;}
+}
+
+.splash2:hover {
+  background-image: url("../images/drone1.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 130%;
+  animation-name: splash2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#scholarship-carousel-table {
+  vertical-align: middle;
+  border: hidden;
+  width: 75%;
+  margin: auto;
+}
+
